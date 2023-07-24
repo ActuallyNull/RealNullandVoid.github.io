@@ -1,21 +1,26 @@
 body {
-    background-color: chartreuse;
+    background-color: powderblue;
     font-family: Comfortaa;
+    margin:0;
   }
-  h1 {
-    color: blue;
+  .title {
+    color: white;
     text-align: center;
-    border: 2px solid hotpink;
-    margin: 40px;
+    width: max-content;
+    margin: auto;
+    font-size: 300%;
   }
   p {
     color: red;
-    text-align: right;
   }
-  .ipsum {
-    text-align: right;
-    background-color: hotpink;
-    border: 2px solid red;
-    margin-left: 1000px;
-    color:greenyellow;
+  .header {
+    padding: 150px;
+    text-align: center;
+    background-image: url(titlebackground.png);
+    background-position: center;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
   }
