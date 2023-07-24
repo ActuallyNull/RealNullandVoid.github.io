@@ -12,3 +12,10 @@ body {
     color: red;
     text-align: right;
   }
+  .ipsum {
+    text-align: right;
+    background-color: hotpink;
+    border: 2px solid red;
+    margin-left: 1000px;
+    color:greenyellow;
+  }
